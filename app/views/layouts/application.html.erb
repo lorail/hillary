@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Hillary Keel</title>
+     <%= stylesheet_link_tag    "application", :media => "all" %>
+     <%= javascript_include_tag "application" %>
+     <%= csrf_meta_tags %>
+    </head>
+    <body>
+      <div id="wrap">
+        <div class="container">
+        
+        <header class="navbar navbar-fixed-top">
+          <div class="navbar-inner">
+              <%= link_to "Hillary Keel", root_path, id: "logo" %>
+              <nav>
+                <ul class="nav pull-right">
+                    <li><%= link_to "About", about_path %></li>
+                </ul>
+              </nav>
+            </div>
+         
+        </header>
+        <div class="container">
+            <% flash.each do |key, value| %>
+            <%= content_tag(:div, value, class: "alert alert-#{key}") %>
+            <% end %>
+            <%= yield %>
+          </div>
+      </div>  
+        <div id="push"></div>
+      </div>
+
+      <div id="footer">
+       <div class="container"> 
+        <p class="muted credit">&copy; 2012<a href="mailto:hillary.keel@gmail.com"> Hillary Keel</a>.com</p>
+      </div>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,107 @@
+$bodyBackground: #fcffef;
+
+@import "bootstrap";
+
+/* universal */
+
+/*html {
+  overflow-y: scroll;
+}*/
+
+.hero-unit {
+  padding-top: 150px;
+  
+}
+
+/*section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}*/
+
+.center {
+  text-align: center;
+  color: #000066;
+}
+.home {
+	background-color: #fcffef;
+}
+.center h1 {
+  padding-bottom: 1em;
+}
+#wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin-bottom: -60px;
+}
+#push, #footer {
+	height: 60px;
+}
+
+/* typography */
+
+h2, h3, h4, h5, h6, p, li {
+	font-family: Georgia, Garamond, "Times New Roman", serif;
+  	
+  	color: #000066;
+}
+.navbar ul li {
+	color: #000066;
+	font-size: 1.2em;
+	letter-spacing: .06em;
+	font-weight: bold;	
+}
+h4 {
+	font-size: 1.3em;
+	letter-spacing: .05em;
+}
+h1 {
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+  /*font-size: 3em;*/
+  letter-spacing: -2px;
+  /*margin-bottom: 60px;*/
+  text-align: center;
+  color: #000066;
+}
+
+h2 {
+  font-size: 1.7em;
+  letter-spacing: .06em;
+  padding: 60px 30px 30px 0;
+  /*text-align: center;*/
+  font-weight: bold;
+  color: #000066;
+}
+
+p {
+  font-size: 1.2em;
+  letter-spacing: .06em;
+  line-height: 1.7em;
+  text-align: justify;
+}
+p strong {text-align: left;}
+/* header */
+
+#logo {
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;	
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: #000066;
+  text-transform: lowercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  padding-left: 30px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+#logo:hover {
+  color: black;
+  text-decoration: none;
+}
+.nav.pull-right {padding-right: 20px}
+#footer p {text-align: center; padding-top: 50px;}
