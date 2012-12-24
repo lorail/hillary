@@ -2,7 +2,11 @@ Hillary::Application.routes.draw do
   
   root :to => 'static_pages#home'
 
-  get "about" => "static_pages#about"
+  get "about" => 'static_pages#about'
+  
+  get "languages" => 'static_pages#languages'
+  
+  get "poetry" => 'static_pages#poetry'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

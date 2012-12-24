@@ -1,16 +1,15 @@
 $bodyBackground: #fcffef;
-
+ 
 @import "bootstrap";
 
 /* universal */
-
+html, body {height: 100%}
 /*html {
   overflow-y: scroll;
 }*/
-
+body {padding-top: 0;}
 .hero-unit {
-  padding-top: 150px;
-  
+  padding-top: 150px; 
 }
 
 /*section {
@@ -21,15 +20,13 @@ textarea {
   resize: vertical;
 }*/
 
-.center {
-  text-align: center;
-  color: #000066;
-}
+
 .home {
-	background-color: #fcffef;
-}
-.center h1 {
-  padding-bottom: 1em;
+  background-color: #fcffef;
+  color: #000066;
+  }
+ 	  h1 {
+  	    padding-left: 76px;
 }
 #wrap {
 	min-height: 100%;
@@ -40,6 +37,12 @@ textarea {
 #push, #footer {
 	height: 60px;
 }
+img {
+	margin-top: 160px;
+	border: 12px whiteSmoke solid;
+	outline: 1px #e3e3e3;
+	border-radius: 5px;
+	}
 
 /* typography */
 
@@ -48,18 +51,28 @@ h2, h3, h4, h5, h6, p, li {
   	
   	color: #000066;
 }
-.navbar ul li {
+/*.navbar ul li {
 	color: #000066;
 	font-size: 1.2em;
 	letter-spacing: .06em;
 	font-weight: bold;	
+}*/
+.navbar .nav li a {
+	color: #08C;
+	font-size: 1.2em;
+	letter-spacing: .06em;
+	padding: 10px 30px 10px;
+	font-weight: bold;
+	&:hover {
+	  color: #000066;
+	}
 }
 h4 {
 	font-size: 1.3em;
 	letter-spacing: .05em;
 }
 h1 {
-  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+  font-family: Copperplate, "Copperplate Gothic Light", sans-serif;
   /*font-size: 3em;*/
   letter-spacing: -2px;
   /*margin-bottom: 60px;*/
@@ -68,25 +81,28 @@ h1 {
 }
 
 h2 {
-  font-size: 1.7em;
+  
   letter-spacing: .06em;
-  padding: 60px 30px 30px 0;
-  /*text-align: center;*/
-  font-weight: bold;
+  padding: 100px 0 50px;
   color: #000066;
 }
-
 p {
   font-size: 1.2em;
   letter-spacing: .06em;
   line-height: 1.7em;
   text-align: justify;
 }
-p strong {text-align: left;}
+  .lead {
+	text-align: center;
+}
+.poem {
+	text-align: left;
+	padding-bottom: 50px;
+}
 /* header */
 
 #logo {
-  font-family: Copperplate, "Copperplate Gothic Light", fantasy;	
+  font-family: Copperplate, "Copperplate Gothic Light", sans-serif;	
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
@@ -97,11 +113,18 @@ p strong {text-align: left;}
   padding-left: 30px;
   font-weight: bold;
   line-height: 1;
-}
-
-#logo:hover {
-  color: black;
-  text-decoration: none;
+  &:hover {
+	color: #08C;
+	text-decoration: none;
+  }
 }
 .nav.pull-right {padding-right: 20px}
-#footer p {text-align: center; padding-top: 50px;}
+
+#footer p {
+	text-align: center;
+	text-indent: 3em;
+	margin-bottom: 2px;
+	&:nth-child(even) {
+	  text-indent: 5em;	
+	} 		
+}

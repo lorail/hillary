@@ -4,4 +4,10 @@ class StaticPagesController < ApplicationController
 
   def about
   end
+  
+  def languages
+  end
+  
+  def poetry
+  end
 end
