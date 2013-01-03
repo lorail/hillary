@@ -49,6 +49,7 @@ img {
 	outline: 1px #e3e3e3;
 	border-radius: 5px;
 	}
+.poem img {margin-top: 0;}
 .hero-unit img {
 	border: none;
 	outline: none;
@@ -111,9 +112,14 @@ p {
 	text-align: left;
 	padding-bottom: 50px;
 }
+.visual p {
+  	line-height: 1.2em;
+  	text-align: left;
+}
 .center {
 	text-align: center;
 }
+
 /* header */
 
 #logo {
