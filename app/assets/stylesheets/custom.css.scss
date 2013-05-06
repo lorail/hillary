@@ -6,18 +6,18 @@ $bodyBackground: #fcffef;
 /* universal */
 html, body {height: 100%}
 
-@import "bootstrap-responsive";
+
 
 body {padding-top: 0;}
 .hero-unit {
   padding: 0;
   background-color: #fcffef;
   margin-bottom: 0;
-	h2 { 
+  /*h2 { 
 	  margin: 0 0 0 -20px;
-	} 	
+	} 	*/
 }
-
+@import "bootstrap-responsive";
 /*section {
   overflow: auto;
 }
@@ -29,11 +29,11 @@ textarea {
 
 .home { 
   color: #000066;
-  padding: 150px 60px 60px;	
-  }
- 	  h1 {
-  	    /*padding-left: 76px;*/
+  padding-top: 10%;
+ 	h1 {
 		margin-bottom: 50px;
+		text-align: center;
+	}
 }
 #wrap {
 	min-height: 100%;
@@ -57,15 +57,21 @@ img {
 	margin-top: 130px;
 }
 .tagline {
-	margin-left: 410px;
+	width: 360px;
+	margin: 0 auto;
 	}
 
 /* typography */
+h1 {
+  font-family: Copperplate, "Copperplate Gothic Light", sans-serif;
+  letter-spacing: -2px;
+  text-align: center;
+  color: #000066;
+}
 
 h2, h3, h4, h5, h6, p, li {
 	font-family: Georgia, Garamond, "Times New Roman", serif;
-  	
-  	color: #000066;
+  color: #000066;
 }
 .navbar .nav li a {
 	color: #08C;
@@ -81,15 +87,6 @@ h4 {
 	font-size: 1.3em;
 	letter-spacing: .05em;
 }
-h1 {
-  font-family: Copperplate, "Copperplate Gothic Light", sans-serif;
-  /*font-size: 3em;*/
-  letter-spacing: -2px;
-  /*margin-bottom: 60px;*/
-  text-align: center;
-  color: #000066;
-}
-
 h2 {
   
   letter-spacing: .06em;
@@ -102,7 +99,8 @@ p {
   line-height: 1.7em;
   text-align: justify;
 }
-  .lead {
+
+.lead {
 	text-align: center;
 }
 .poem {
@@ -151,3 +149,4 @@ p {
 	  text-indent: 5em;	
 	} */		
 }
+
