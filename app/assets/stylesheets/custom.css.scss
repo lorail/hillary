@@ -1,6 +1,5 @@
 $bodyBackground: #fcffef;
 
-
 @import "bootstrap";
 
 /* universal */
@@ -29,12 +28,8 @@ textarea {
 
 .home { 
   color: #000066;
-  padding-top: 10%;
- 	h1 {
-		margin-bottom: 50px;
-		text-align: center;
-	}
-}
+  margin: 150px auto 70px;
+  }
 #wrap {
 	min-height: 100%;
 	height: auto !important;
@@ -57,10 +52,10 @@ img {
 	margin-top: 130px;
 }
 .tagline {
-	width: 360px;
-	margin: 0 auto;
+	width: 320px;
+	margin: 20px auto;
 	}
-
+.well {padding: 20px 0 0 0;}
 /* typography */
 h1 {
   font-family: Copperplate, "Copperplate Gothic Light", sans-serif;
