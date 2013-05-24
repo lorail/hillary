@@ -144,4 +144,11 @@ p {
 	  text-indent: 5em;	
 	} */		
 }
+/*if narrower than Xpx
+	hide #projects_controller*/
+@media (max-width: 543px) {
+	.home {
+		  	margin: 50px auto;
+	 }
+}
 

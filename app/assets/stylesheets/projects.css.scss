@@ -43,10 +43,11 @@ $lilac: #a849a3;
 
 	/*if narrower than Xpx
 	hide #projects_controller*/
-	  @media (max-width: 320px) {
-  #projects_controller {
-    display: none;
+	@media (max-width: 543px) {
+	  #keyboard {
+	    display: none;
+	  }
   }
 }
 	 
-}
+
