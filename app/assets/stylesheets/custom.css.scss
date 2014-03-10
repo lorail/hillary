@@ -105,8 +105,11 @@ p {
 .visual p {
   	line-height: 1.2em;
   	text-align: left;
-  	padding-left: 1em;
+  	//padding-left: 1em;
 }
+.spaces {word-spacing: 3em;}
+.spaces span {color: $bodyBackground}
+.indent {text-indent: 3em;}
 .prose {
 	padding-left: 1em;
 	margin-right: -1em;
